@@ -13,6 +13,16 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        limelight: [
+          '"Limelight"',
+          "var(--font-limelight)",
+        ],
+        happyMonkey: [
+          '"Happy_Monkey"',
+          "var(--font-happy-monkey)",
+        ],
+      }
     },
   },
   plugins: [],
