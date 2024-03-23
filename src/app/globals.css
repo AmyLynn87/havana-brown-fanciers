@@ -24,6 +24,10 @@
 html,
 body {
   height: 100%;
+  font-family: var(--font-happy-monkey);
+}
+h1 {
+  font-family: var(--font-limelight);
 }
 
 /*
