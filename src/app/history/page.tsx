@@ -20,7 +20,7 @@ export default function HistoryPage() {
         <meta name="description" content={"History about Havana Brown Cats"} />
       </Head>
       <DesktopNav />
-      <div className="p-12 space-y-8 text-justify">
+      <div className="p-12 space-y-8 text-justify max-w-4xl flex flex-col items-center">
         <h1 className="font-limelight font-bold text-6xl text-center">
           History
         </h1>
@@ -60,37 +60,31 @@ export default function HistoryPage() {
         </p>
 
         <figure className="w-full flex flex-col items-center">
-          <img src="/havanas-in-history-july-1960.gif" alt="Havanas in History, July 1960" className="max-w-[600px]" />
-          <figcaption className="text-center">This picture, with caption was found in "Our Cats" magazine, July 1960.</figcaption>
+          <img src="/havanas-in-history-july-1960.gif" alt="Havanas in History, July 1960" className="max-w-xl" />
+          <figcaption className="text-center text-xs">This picture, with caption was found in "Our Cats" magazine, July 1960.</figcaption>
         </figure>
 
         <figure className="w-full flex flex-col items-center">
-          <img src="/sidlo-ad-1962.jpeg" alt="Sidlo Ad 1962" className="max-w-[600px]" />
-          <figcaption className="text-center">This is the Sidlo Cattery CFA Year Book Ad in 1962.</figcaption>
+          <img src="/sidlo-ad-1962.jpeg" alt="Sidlo Ad 1962" className="max-w-xl" />
+          <figcaption className="text-center text-xs">This is the Sidlo Cattery CFA Year Book Ad in 1962.</figcaption>
         </figure>
 
         <p>
           The following article was written by Dallas Sidlo, Sidlo Cattery, and published in the 1964 CFA Yearbook.
-        </p>
-
-        <p>
           It is placed here with the permission of CFA for the enjoyment of those who are interested in learning more about the History of the Havana Brown Breed.
         </p>
 
         <figure className="w-full flex flex-col items-center">
-          <img src="/dallas-sidlo-article.jpg" alt="Dallas Sidle Article Part 1" className="max-w-[600px]" />
+          <img src="/dallas-sidlo-article.jpg" alt="Dallas Sidle Article Part 1" className="max-w-xl" />
         </figure>
 
         <figure className="w-full flex flex-col items-center">
-          <img src="/dallas-sidlo-article2.jpg" alt="Dallas Sidle Article Part 2" className="max-w-[600px]" />
+          <img src="/dallas-sidlo-article2.jpg" alt="Dallas Sidle Article Part 2" className="max-w-xl" />
         </figure>
 
-        <p>
-          This article was published in the September - October, 1975 "Cat World" magazine, a magazine for the breeder/exhibitor.
-        </p>
-
-        <figure className="w-full flex flex-col items-center">
-          <img src="/cat-world-sept-oct-1975.jpeg" alt="Article on Cat World Sept-Oct 1975" className="max-w-[600px]" />
+        <figure className="w-full flex flex-col items-center max-w-xl">
+          <img src="/cat-world-sept-oct-1975.jpeg" alt="Article on Cat World Sept-Oct 1975" />
+          <figcaption className="text-center text-xs ">This article was published in the September - October, 1975 "Cat World" magazine, a magazine for the breeder/exhibitor.</figcaption>
         </figure>
 
       </div>
